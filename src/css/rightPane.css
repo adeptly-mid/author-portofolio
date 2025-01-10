@@ -1,7 +1,7 @@
 .rightPane {
   height: 100%; /* Fills the height of the grid */
   width: 100%; /* Fills the width of the grid cell */
-  border-left: 2px solid purple !important;
+  border-left: 1.5px solid rgb(221, 221, 221) !important;
   display: flex;
   flex-direction: column;
   gap: 1em;

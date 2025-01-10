@@ -1,7 +1,6 @@
 .leftPane {
-  height: 100%; /* Fills the height of the grid */
-  width: 100%; /* Fills the width of the grid cell */
-  border-right: 2px solid purple !important;
+  height: 100vh; /* Fills the height of the grid */
+  border-right: 1.5px solid rgb(221, 221, 221) !important;
 }
 
 .leftItem {

@@ -1,11 +1,14 @@
 import React from "react";
 import "../css/rightPane.css";
 import "../css/page.css";
+import Search from "./Search";
 
 function RightPane() {
   return (
     <div className="rightPane">
-      <div className="rightItem">Right pane test</div>
+      <div className="rightItem">
+        <Search />
+      </div>
     </div>
   );
 }
