@@ -1,0 +1,25 @@
+.pageLayout {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "nav nav nav"
+    "left center right";
+  grid-template-columns: 1fr 2fr 1fr; /* 1:2:1 ratio */
+  grid-template-rows: auto; /* Automatically adjust row heights */
+}
+
+.navbar {
+  grid-area: nav;
+}
+
+.leftPane {
+  grid-area: left;
+}
+
+.centerPane {
+  grid-area: center;
+}
+
+.rightPane {
+  grid-area: right;
+}

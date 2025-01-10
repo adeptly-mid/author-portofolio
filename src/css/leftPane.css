@@ -1,0 +1,11 @@
+.leftPane {
+  height: 100%; /* Fills the height of the grid */
+  width: 100%; /* Fills the width of the grid cell */
+  border-right: 2px solid purple !important;
+}
+
+.leftItem {
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: right;
+}
